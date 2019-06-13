@@ -1,0 +1,63 @@
+body {
+    background-image: url(http://bussnova.com/wp-content/uploads/css-repeating-background-pattern-square-pattern-as-background-on-a-div-with-pure-css-stack-overflow-150x150.png);
+}
+#header{
+    background-color: rgb(173, 126, 23);
+    font-size: 30px;
+    color: white;
+    padding: 20px 0px 20px 0px;
+    width: 23%;
+    
+}
+
+#instructions{
+    width: 35%;
+    height:30%;
+    background-color: white;
+    color: green;
+    font-size: 16px;
+    }
+#container2{
+        height: 10%;
+        width: 100%
+    }
+#randNumber{
+    width: 15%;
+    height: 10%;
+    background-color: rgb(18, 190, 124);
+    margin-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    float: left;
+    font-size: 30px;
+}
+#score{
+    height: 10%;
+    width: 8%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: aqua;
+    color: blue;
+    padding-bottom: 20px;
+    padding-left: 5px;
+}
+#gemContainer{
+    width: 100%
+}
+#total {
+    background-color: teal;
+    color: white;
+    font-size: 25px;
+    width: 20%;
+}
+#totalScore{
+    width: 15%;
+    height: 10%;
+    background-color: teal;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    float: left;
+    font-size: 30px;
+}
