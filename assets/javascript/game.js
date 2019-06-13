@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
 
-    var randomNumber = Math.floor(Math.random() * (101) + 19);
+    var randomNumber = Math.floor(Math.random() * (102) + 19);
     var wins = 0;
     var losses = 0;
     var totalScore = 0;
@@ -9,10 +9,10 @@ $(document).ready(function () {
     $("#winNumber").html(wins);
     $("#lossNumber").html(losses);
 
-    var blue = Math.floor(Math.random() * (12));
-    var green = Math.floor(Math.random() * (12));
-    var white = Math.floor(Math.random() * (12));
-    var purple = Math.floor(Math.random() * (12));
+    var blue = Math.floor(Math.random() * (12) + 1);
+    var green = Math.floor(Math.random() * (12) + 1);
+    var white = Math.floor(Math.random() * (12) + 1);
+    var purple = Math.floor(Math.random() * (12) + 1);
 
     $("#blueGem").on("click", function () {
         totalScore = totalScore + blue;
