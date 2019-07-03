@@ -7,7 +7,7 @@ body {
     color: white;
     padding: 20px 0px 20px 0px;
     width: 30%;
-    float: left;
+    
     
 }
 
@@ -68,4 +68,39 @@ body {
 
 .box{
     display: inline-block;
+}
+@media screen and (max-width: 800px) {
+    #header{
+        width: 100%;
+        text-align: center;
+    }
+    #instructions{
+        width: 80%;
+        margin: auto;
+    }
+    #gemContainer{
+        margin-left: 10%;
+    }
+    #score{
+        width: 47%;
+        
+    }
+    #randNumber{
+        width: 47%;
+        padding-bottom: 14%;
+        
+    }
+    #container2{
+        margin-top: -30px;
+        width: 80%;
+        margin: auto;
+    }
+    #total{
+        margin-left: 10%;
+        margin-top: 8%;
+    }
+    #totalScore{
+        float: right;
+        margin-right: 10%;
+    }
 }
